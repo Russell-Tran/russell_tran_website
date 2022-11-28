@@ -1,5 +1,11 @@
 /* screen - algo */
 
+@media (max-width: 800px) {
+  .hidden-mobile {
+    display: none;
+  }
+}
+
 .algo {
   background-color: var(--white);
   border: 0.05vw none;
