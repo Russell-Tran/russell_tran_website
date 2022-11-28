@@ -1,0 +1,55 @@
+:root { 
+  --black: #000000;
+  --gallery: #f0f0f0;
+  --log-cabin: #222523;
+  --shark: #222524;
+  --white: #ffffff;
+ 
+  --font-size-l: 24px;
+  --font-size-s: 16px;
+  --font-size-s2: 32px;
+  --font-size-xs: 15px;
+  --font-size-xxl: 48px;
+  --font-size-xxs2: 20px;
+ 
+  --font-family-lato: "Lato", Helvetica;
+}
+.lato-normal-log-cabin-15px {
+  color: var(--log-cabin);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.lato-normal-log-cabin-20px {
+  color: var(--log-cabin);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-xxs2);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.lato-bold-log-cabin-32px {
+  color: var(--log-cabin);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-s2);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.lato-normal-shark-16px {
+  color: var(--shark);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.lato-bold-log-cabin-48px {
+  color: var(--log-cabin);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
