@@ -1,9 +1,8 @@
-
 document.addEventListener('DOMContentLoaded', function () {
-  particleground(document.getElementById('particles'), {
-    dotColor: '#5cbdaa',
-    lineColor: '#5cbdaa'
-  });
+  // particleground(document.getElementById('particles'), {
+  //   dotColor: '#5cbdaa',
+  //   lineColor: '#5cbdaa'
+  // });
 
   document.querySelectorAll(".portfolio-filter>button").forEach(
     (elem) => {
